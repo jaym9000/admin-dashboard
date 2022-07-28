@@ -1,3 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: pink;
+}
+
+.container {
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 4px;
+}
+
 li {
   list-style-type: none;
 }
