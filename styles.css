@@ -47,15 +47,41 @@ li {
 }
 
 /* ******** Header ******** */
+
+/* Top grid above main-content */
 .header {
   display: grid;
   grid-template-rows: 1fr 1fr;
 }
 
-.top {
+/* Top row of entire top grid */
+.top,
+.textsearch {
   grid-row: 1 / 2;
 }
 
+/* Search bar and search button positioning */
+.textsearch {
+  display: flex;
+  align-items: center;
+  padding-left: 25px;
+}
+
+/* Resizing and redesigning search bar */
+.text {
+  width: 100%;
+  height: 20px;
+  background-color: lightgray;
+  border-radius: 25px;
+  border-style: none;
+}
+
+/* Move blinking cursor to the right (because search bar edits had made it disappear)  */
+.header input {
+  padding-left: 10px;
+}
+
+/* Designing search button */
 .search-btn {
   width: 40px;
   border: none;
