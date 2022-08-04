@@ -89,6 +89,12 @@ li {
   text-align: right;
 }
 
+.top-right-corner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 /* ******** Main Content Section ******** */
 
 /* Make entire container of Main Content a grid */
