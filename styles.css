@@ -112,12 +112,19 @@ li {
   padding-right: 15px;
 }
 
-/* bottom of title rows*/
-.bottom-left {
+/* bottom of header rows*/
+.bottom-left,
+.bottom-right {
   grid-row: 2/2;
-  display: flex;
-  align-items: center;
 }
+
+.p-above {
+  align-items: flex-start;
+}
+
+.p-below {
+}
+
 /* ******** Main Content Section ******** */
 
 /* Make entire container of Main Content a grid */
