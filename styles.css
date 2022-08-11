@@ -113,8 +113,7 @@ li {
 }
 
 /* bottom of header rows*/
-.bottom-left,
-.bottom-right {
+.bottom {
   grid-row: 2/2;
 }
 
