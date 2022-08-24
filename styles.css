@@ -11,7 +11,7 @@
   border: 1px solid black;
 }
 
-/* ******** Sidebar Section ******** */
+/* ***************************** Sidebar Section ***************************** */
 
 /*  Sidebar text needs to be evened out and needs logo at top right to be finished. */
 .sidebar {
@@ -47,13 +47,12 @@ li {
   font-weight: 600;
 }
 
-/* ******** Header ******** */
+/* ***************************** Header ***************************** */
 
 /* Top grid above main-content */
 .header {
   display: grid;
-  /* grid-template-rows: 1fr 1fr;
-  grid-template-columns: 2fr 1fr; */
+  padding: 20px;
 }
 
 /* Top row of entire top grid */
@@ -114,33 +113,33 @@ li {
 }
 
 /* bottom of header rows*/
-/* .p-above {
-  align-items: flex-start;
+.thumb-below,
+.p-text {
+  display: flex;
+  justify-content: center;
 }
-
-.p-below {
-} */
 
 .bottom-left {
   display: grid;
-  grid-column: 1/2;
 }
 
 .bottom-right {
   display: grid;
-  grid-row: 2/2;
-  grid-column: 2/2;
+}
+
+.top-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
 }
 
 button {
-  display: grid;
-  display: flex;
-
   border-radius: 15px;
   padding: 10px;
 }
 
-/* ******** Main Content Section ******** */
+/* ***************************** Main Content Section ***************************** */
 
 /* Make entire container of Main Content a grid */
 .my-projects {
