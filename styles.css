@@ -25,6 +25,10 @@
   align-content: flex-start;
 }
 
+.dash {
+  color: #fff;
+}
+
 .header-logo {
   font-size: 25px;
   font-weight: 900;
@@ -130,7 +134,8 @@ li {
 .top-buttons {
   display: flex;
   justify-content: flex-end;
-  padding-right: 30px;
+  padding-right: 50px;
+  padding-top: 40px;
   align-items: center;
   gap: 20px;
 }
