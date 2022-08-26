@@ -26,13 +26,15 @@
 }
 
 .dash {
-  color: #fff;
+  padding-right: 10px;
 }
 
 .header-logo {
   font-size: 25px;
   font-weight: 900;
   padding: 15px;
+  display: flex;
+  align-items: center;
 }
 
 ul {
