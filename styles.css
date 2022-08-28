@@ -110,24 +110,24 @@ li {
 /* Sizing avatar image */
 
 .git {
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
   padding-right: 15px;
 }
 
 .git-below {
-  width: 50px;
-  height: 50px;
+  width: 70px;
+  height: 70px;
   /* padding-bottom: 15px; */
   padding-left: 15px;
-  padding-right: 15px;
 }
 
 /* bottom of header rows*/
 .git-below,
 .p-text {
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
+  align-items: flex-end;
 }
 
 .bottom-left {
