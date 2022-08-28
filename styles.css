@@ -132,6 +132,10 @@ li {
   align-items: center;
 }
 
+.multiline {
+  white-space: pre-wrap;
+}
+
 .top-buttons {
   display: flex;
   justify-content: flex-end;
