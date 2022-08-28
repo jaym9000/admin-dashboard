@@ -127,11 +127,9 @@ li {
 }
 
 .bottom-left {
-  display: grid;
-}
-
-.bottom-right {
-  display: grid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .top-buttons {
