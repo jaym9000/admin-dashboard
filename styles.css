@@ -77,7 +77,7 @@ li {
 
 /* Resizing and redesigning search bar */
 .text {
-  width: 100%;
+  width: 575px;
   height: 20px;
   background-color: lightgray;
   border-radius: 25px;
@@ -103,24 +103,28 @@ li {
   justify-content: center;
 }
 
-/* Sizing logo image */
+.top-right-name {
+  font-weight: bold;
+}
 
-.thumb {
+/* Sizing avatar image */
+
+.git {
   width: 40px;
   height: 40px;
   padding-right: 15px;
 }
 
-.thumb-below {
+.git-below {
   width: 50px;
   height: 50px;
-  padding-bottom: 15px;
-  padding-left: 30px;
+  /* padding-bottom: 15px; */
+  padding-left: 15px;
   padding-right: 15px;
 }
 
 /* bottom of header rows*/
-.thumb-below,
+.git-below,
 .p-text {
   display: flex;
   justify-content: center;
@@ -129,7 +133,7 @@ li {
 .bottom-left {
   display: flex;
   justify-content: flex-start;
-  align-items: center;
+  align-items: flex-end;
 }
 
 .bottom-left-top {
