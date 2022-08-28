@@ -20,7 +20,7 @@
   grid-column: 1/2;
   grid-row: 1/ 5;
   justify-content: flex-start;
-  background-color: dodgerblue;
+  background-color: #0ea5e9;
   color: white;
   text-align: left;
   align-content: flex-start;
@@ -128,12 +128,29 @@ li {
 
 .bottom-left {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
 }
 
+.bottom-left-top {
+  align-self: flex-start;
+  font-weight: bold;
+  font-size: small;
+}
+
+.bottom-left-bottom {
+  font-weight: bold;
+  font-size: larger;
+}
+
+/* Header bottom left multiline */
 .multiline {
-  white-space: pre-wrap;
+  line-height: 20px;
+
+  clear: both;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
 }
 
 .top-buttons {
