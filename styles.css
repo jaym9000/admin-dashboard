@@ -229,4 +229,34 @@ h3 {
 
 .project {
   border: 1px solid black;
+  height: fit-content;
+}
+
+.all-cards {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding: 25px;
+}
+
+.title {
+  font-weight: bold;
+}
+
+.card-icon {
+  height: 20px;
+  width: 20px;
+}
+
+.card-images {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding-top: 40px;
+}
+
+.star,
+.eye {
+  padding-right: 15px;
 }
