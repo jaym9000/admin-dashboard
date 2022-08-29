@@ -79,7 +79,7 @@ li {
 .text {
   width: 575px;
   height: 20px;
-  background-color: lightgray;
+  background-color: #e5e7eb;
   border-radius: 25px;
   border-style: none;
 }
@@ -133,7 +133,7 @@ li {
 .bottom-left {
   display: flex;
   justify-content: flex-start;
-  align-items: flex-end;
+  align-items: center;
 }
 
 .bottom-left-top {
@@ -185,7 +185,7 @@ li {
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
   gap: 15px;
-  background-color: lightgray;
+  background-color: #e5e7eb;
   padding: 30px;
 }
 
