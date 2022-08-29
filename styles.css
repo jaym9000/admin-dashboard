@@ -232,8 +232,13 @@ h3 {
   height: fit-content;
 }
 
+.proj-only {
+  background: linear-gradient(to right, orange 2%, white 2%);
+}
+
 .all-cards {
   background-color: white;
+
   display: flex;
   flex-direction: column;
   text-align: left;
