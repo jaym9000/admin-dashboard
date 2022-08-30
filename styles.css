@@ -184,7 +184,7 @@ li {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
-  gap: 15px;
+  gap: 20px;
   background-color: #e5e7eb;
   padding: 30px;
 }
@@ -264,4 +264,12 @@ h3 {
 .star,
 .eye {
   padding-right: 15px;
+}
+
+.space-bottom {
+  padding-bottom: 20px;
+}
+
+.space-top {
+  padding-top: 20px;
 }
