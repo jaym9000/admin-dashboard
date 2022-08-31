@@ -274,3 +274,13 @@ h3 {
 .space-top {
   padding-top: 20px;
 }
+
+.same-line {
+  text-align: left;
+  color: #6b7280;
+  padding-bottom: 15px;
+}
+
+.at {
+  color: black;
+}
