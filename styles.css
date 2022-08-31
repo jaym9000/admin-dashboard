@@ -279,6 +279,7 @@ h3 {
   text-align: left;
   color: #6b7280;
   padding-bottom: 15px;
+  display: flex;
 }
 
 .at {
@@ -288,4 +289,9 @@ h3 {
 .animal-icons {
   height: 30px;
   width: 30px;
+  padding-right: 15px;
+}
+
+.right-of-image {
+  /* display: flex; */
 }
