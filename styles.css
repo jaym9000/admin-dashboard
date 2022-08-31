@@ -182,11 +182,23 @@ li {
 /* Make entire container of Main Content a grid */
 .my-projects {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  /* grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr; */
   gap: 20px;
   background-color: #e5e7eb;
-  padding: 30px;
+  padding: 20px;
+  padding-top: 50px;
+}
+
+.big-title {
+  position: absolute;
+  top: 185px;
+}
+
+.big-title-trending {
+  position: absolute;
+  top: 580px;
+  right: 310px;
 }
 
 .p1 {
